@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name "*.html" -exec rsync -u {} .. \;
+find . -maxdepth 1 -name "*.html" -exec rsync -u {} .. \
