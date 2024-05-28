@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#shellcheck dsiable=2034
 x=1
 until [ $x -gt 10 ]
 do 
