@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 x = 0
+#shellcheck disable=SC2034
 while [ $x -le 5]
 do 
-echo $x
+echo "Best School"
 $x = $(($x+1))
 done
 
