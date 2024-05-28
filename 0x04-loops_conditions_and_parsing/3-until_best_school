@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#shellcheck dsiable=2034
+x=0
+until [ $x -gt 10 ]
+do 
+echo "Best School"
+((x++))
+done
+
