@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #shellcheck disable=SC2034
 x=0
-while [ $x -le 10]
+while [ $x -lt 10 ]
 do 
-echo "Best School"
-x = $(($x+1))
+	echo "Best School"
+	x=$(( x + 1 ))
 done
 
