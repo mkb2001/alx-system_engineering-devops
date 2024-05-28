@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #This is a for loop in bash
+# shellcheck disable=SC1234
 for i in {1..10}
 do
 echo "Best School"
