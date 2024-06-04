@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this is a script to show files with for loop
+
+for file in *; do
+  if [ -f "$file" ]; then
+    filename=${file#*-}
+    echo "$filename"
+  fi
+done
