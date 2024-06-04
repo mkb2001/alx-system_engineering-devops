@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+# This is a script about while and if statement working toggether
 
 i=1
-while [$i -le 10]; do
-    if [$i -eq 9]; then
+while [ $i -le 10 ]; do
+    if [ $i -eq 9 ]; then
         echo "Best School"
         echo "Hi"
     else
