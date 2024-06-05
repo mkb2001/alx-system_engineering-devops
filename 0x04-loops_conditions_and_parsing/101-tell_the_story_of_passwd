@@ -3,7 +3,5 @@
 #shellcheck disable=SC2034
 #shellcheck disable=SC2154
 while IFS=: read -r username password userid group_id rest; do
-  home_dir=$(echo "$rest" | cut -d: -f6)
-  shell=$(echo "$rest" | cut -d: -f7)
-  echo "The user $username is part of the $userid gang, lives in $home_dir and rides $shell. $userid's place is protected by the passcode $password, more info about the user here: $username"
+  echo "The user $username is part of the $userid gang, lives in  and rides. $userid's place is protected by the passcode $password, more info about the user here: $username"
 done < /etc/passwd
