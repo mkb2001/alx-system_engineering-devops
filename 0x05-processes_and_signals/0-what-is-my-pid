@@ -1,3 +1,3 @@
-#!/bin/bash
-pid=$(ps -ef | grep bash | awk '{print $2}')
-echo "$pid"
+#!/usr/bin/env bash
+# Displays pid of script
+echo "$$"
