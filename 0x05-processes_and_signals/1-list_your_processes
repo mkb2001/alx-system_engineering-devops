@@ -1,2 +1,3 @@
-#!/bin/bash
-ps -u
+#!/usr/bin/env bash
+# list all the current active processes
+top -n 1
